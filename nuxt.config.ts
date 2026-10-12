@@ -10,5 +10,10 @@ export default defineNuxtConfig({
       tailwindcss()
     ]
   },
-  modules: ['@nuxt/image', '@nuxt/icon']
+  modules: [
+    '@nuxt/image',
+    '@nuxt/icon',
+    'shadcn-nuxt',
+    '@vueuse/nuxt'
+  ]
 })
